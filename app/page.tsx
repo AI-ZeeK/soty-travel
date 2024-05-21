@@ -163,7 +163,7 @@ export default function Home() {
             >
               <FaCalendarDay fontSize={24} className="headerIcon" />
               <span className="headerSearchText">
-                {`to ${format(dates[0].endDate, "MM/dd/yyyy")}`}
+                {`${format(dates[0].endDate, "MM/dd/yyyy")}`}
               </span>
             </div>
           </div>
